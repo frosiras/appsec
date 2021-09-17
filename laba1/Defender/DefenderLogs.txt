@@ -1,0 +1,72 @@
+Begin Resource Scan
+Scan ID:{B31A3CD6-8BAB-419B-A5D6-35471150D5E5}
+Scan Source:6
+Start Time:09-17-2021 11:04:54
+End Time:09-17-2021 11:06:10
+Explicit resource to scan
+Resource Schema:file
+Resource Path:D:\mimikatz_trunk\x64\mimikatz.exe
+Result Count:1
+Threat Name:HackTool:Win32/Mimikatz.D
+ID:2147729891
+Severity:4
+Number of Resources:1
+Resource Schema:file
+Resource Path:D:\mimikatz_trunk\x64\mimikatz.exe
+Extended Info - SigSeq:0001c161d824440f
+Extended Info - SigSha:b85ca6c5daab09c72437b33163903c40f2f38105
+End Scan
+************************************************************
+
+FileName:D:\mimikatz_trunk\x64\mimikatz.exe
+SHA1:70df765f554ed7392200422c18776b8992c09231
+Internal signature match:subtype=Lowfi, sigseq=0x0000157E3ACA105F, sigsha=8c10837ff74386ae0edf063ce42ec1d1c562f68a, cached=true, source=0, resourceid=0xa77e8781
+Internal signature match:subtype=Lowfi, sigseq=0x0000157E05A6D1B4, sigsha=397339b2c2ff5fbb1c1e60cc7b34f2f5b4f0e410, cached=true, source=0, resourceid=0xa77e8781
+Internal signature match:subtype=Lowfi, sigseq=0x0000157E788421E7, sigsha=3d7a99224bbd9f6783b943356c7b77662d8d8e5d, cached=true, source=0, resourceid=0xa77e8781
+Internal signature match:subtype=Lowfi, sigseq=0x00016E78FD0F65CF, sigsha=80d3c7bde96ba7ef2099472a31c86ec45750c273, cached=true, source=0, resourceid=0xa77e8781
+Internal signature match:subtype=Lowfi, sigseq=0x00000555A833180A, sigsha=8f4d6c120d5207d006862a206abe1054d77e97d4, cached=true, source=0, resourceid=0xa77e8781
+Internal signature match:subtype=Persist, sigseq=0x000005557C8828E8, sigsha=58c1854725ed554bfccf24a03506586eda32be2f, cached=false, source=0, resourceid=0xa77e8781
+Internal signature match:subtype=Lowfi, sigseq=0x000069786A107E76, sigsha=0709283b614c4ff4f53ca50e4255256f55104e2c, cached=true, source=0, resourceid=0xa77e8781
+Internal signature match:subtype=Lowfi, sigseq=0x0003AC78F2DE668A, sigsha=9333642bd5e3339d607acf8845411fff60f6cece, cached=true, source=0, resourceid=0xa77e8781
+Internal signature match:subtype=Lowfi, sigseq=0x0000157E205FCCB3, sigsha=9c4161bde320de98c8ec45ab1e6166a2fd18489e, cached=true, source=0, resourceid=0xa77e8781
+Internal signature match:subtype=Lowfi, sigseq=0x0000157E24299F0C, sigsha=3253de5ce8279885552d4a9b6a96d6d20acb3cfa, cached=true, source=0, resourceid=0xa77e8781
+Internal signature match:subtype=Lowfi, sigseq=0x0000157EE9FB19C2, sigsha=3dbdbbe6d60a388bad34f40e8ac3a904c1b46bc1, cached=true, source=0, resourceid=0xa77e8781
+Internal signature match:subtype=Lowfi, sigseq=0x0000157E11F5C9FE, sigsha=4ec693a3c135eb87c201161ab2836c97d6043ff8, cached=true, source=0, resourceid=0xa77e8781
+Internal signature match:subtype=Lowfi, sigseq=0x0000157EA8CA68FD, sigsha=3d009c9a2b1eac6af54a06e523bcf7ceeca3108a, cached=true, source=0, resourceid=0xa77e8781
+FP supression checks:
+2021-09-17T08:06:11.212Z CheckTrusted=true (Sigseq=0x1c161d824440f), CheckLimit=true, IsNotRevokedCertSig=true, IsNotFpCheckDisabledSig=true, IsSignedFileCheck=false, IsNotExcludedCertificate=true (FriendlySigSeq=0x0)
+2021-09-17T08:06:11.227Z DETECTION_CLEANEVENT MPSOURCE_REALTIME MP_THREAT_ACTION_QUARANTINE 0 HackTool:Win32/Mimikatz.D file:D:\mimikatz_trunk\x64\mimikatz.exe;
+2021-09-17T08:06:11.227Z [Cloud] SubmitReport(CMpSpyNetReportContext - post clean)
+2021-09-17T08:06:11.227Z [Cloud] Start of cloud request. Passive mode: 0
+2021-09-17T08:06:11.227Z [Cloud] Queued cloud request.
+2021-09-17T08:06:11.227Z [Cloud] Dequeued cloud request.
+Beginning threat actions
+Start time:09-17-2021 11:06:11
+Threat Name:HackTool:Win32/Mimikatz.D
+Threat ID:2147729891
+Action:quarantine
+Resource action complete:Quarantine
+Schema:file
+Path:\\?\D:\mimikatz_trunk\x64\mimikatz.exe
+Threat ID:2147729891
+Resource refcount:1
+Result:0
+File to act on SHA1:70DF765F554ED7392200422C18776B8992C09231
+File owner:DESKTOP-BE00GN1\frosi
+File cleaned/removed successfully
+File Name:D:\mimikatz_trunk\x64\mimikatz.exe
+Action remove successful on file:\\?\D:\mimikatz_trunk\x64\mimikatz.exe
+Resource action complete:Removal
+Schema:file
+Path:\\?\D:\mimikatz_trunk\x64\mimikatz.exe
+Threat ID:2147729891
+Resource refcount:1
+Result:0
+Finished threat ID:2147729891
+Threat result:0
+Threat status flags:0
+Threat Effective RemovalPolicy:128
+Finished threat actions
+End time:09-17-2021 11:06:11
+Result:0
+2021-09-17T08:06:11.243Z [RoutineClean] Routine cleaning completed successfully on 1 detections.
